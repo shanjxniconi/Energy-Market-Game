@@ -14,10 +14,10 @@
             <Font name="Arial" size="25.0" />
          </font>
       </Label>
-      <TableView layoutX="197.0" layoutY="92.0" prefHeight="234.0" prefWidth="208.0">
+      <TableView fx:id="rankTable" layoutX="197.0" layoutY="92.0" prefHeight="234.0" prefWidth="200.0">
         <columns>
-          <TableColumn prefWidth="104.0" text="Name" />
-          <TableColumn prefWidth="103.0" text="Score" />
+          <TableColumn fx:id="userNameColumn" prefWidth="100.0" text="Name" />
+          <TableColumn fx:id="scoreColumn" prefWidth="100.0" text="Score" />
         </columns>
       </TableView>
    </children>
