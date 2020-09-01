@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="618.0" prefWidth="904.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TemplateController">
+	<children>
+		<Label layoutX="105.0" layoutY="37.0" prefHeight="71.0" prefWidth="800.0" text="Welcome to the Energy Market Game" textAlignment="CENTER">
+			<font>
+				<Font name="Arial" size="47.0" />
+			</font>
+		</Label>
+		<Label layoutX="240.0" layoutY="124.0" style="-fx-font-size: 16" text="With our game, you can learn how a basic electricity market works" textAlignment="CENTER" wrapText="true" />
+		<Label layoutX="238.0" layoutY="157.0" style="-fx-font-size: 16" text="Before entering the game, please login or register a new account ! " />
+		<Label layoutY="460.0" style="-fx-text-fill: gray; -fx-font-size: 13px" text="COPYRIGHT © 2020  Group 1 (Alperen AVŞAR, Parmit KUMAR, Jiaxiang SHAN) Case Study of Energy Engineering Project at Technische Universität Dresden" textAlignment="CENTER" />
+		<Label layoutX="236.0" layoutY="493.0" style="-fx-text-fill: gray; -fx-font-size: 13px" text="Professor &amp; Supervisor: " textAlignment="CENTER" />
+		<Label />
+		<Label layoutX="56.0" layoutY="521.0" style="-fx-text-fill: gray; -fx-font-size: 13px" text="If you had any questions or constructive suggestions regarding our projects, feel free to write us an e-mail : jiaxiang.shan@stud.tu-dresden.de" textAlignment="CENTER" />
+		<Label layoutX="254.0" layoutY="235.0" text="Username : ">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Label>
+		<Label layoutX="257.0" layoutY="310.0" text="Password : ">
+			<font>
+				<Font size="20.0" />
+			</font>
+		</Label>
+		<TextField fx:id="username_field" layoutX="386.0" layoutY="226.0" prefHeight="45.0" prefWidth="261.0" promptText="Enter your username please">
+			<font>
+				<Font size="18.0" />
+			</font>
+		</TextField>
+		<PasswordField fx:id="password_field" layoutX="386.0" layoutY="301.0" prefHeight="45.0" prefWidth="261.0" promptText="Enter your password please">
+			<font>
+				<Font size="18.0" />
+			</font>
+		</PasswordField>
+		<Button fx:id="login_button" layoutX="334.0" layoutY="395.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="116.0" text="Login" />
+		<Button fx:id="register_button" layoutX="505.0" layoutY="395.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="116.0" text="Register" />
+		<Label fx:id="error_message" layoutX="657.0" layoutY="233.0" prefHeight="30.0" prefWidth="217.0" text="You have the wrong credentials !" textFill="#ee0a0a" visible="false">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</Label>
+		<Label layoutX="63.0" layoutY="575.0" prefHeight="19.0" prefWidth="743.0" style="-fx-text-fill: gray; -fx-font-size: 13px" text="Icons of '***' and '***' are created by *** Iconfont: url" />
+
+
+	</children>
+</AnchorPane>
