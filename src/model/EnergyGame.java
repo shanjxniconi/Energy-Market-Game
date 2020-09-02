@@ -3,9 +3,6 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.fhluebeck.group3.model.Recipe;
-
-
 /**
  * The EnergyGame Model as an Application.
  * 
