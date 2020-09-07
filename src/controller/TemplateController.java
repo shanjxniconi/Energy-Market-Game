@@ -39,7 +39,7 @@ import javafx.util.Pair;
  * basic loading functions of the login as well as welcoming user interface and
  * calls the functions from userDAO to alter the user table.
  * 
- * @author Hua Yichen on 2018.05.30.
+ * @author Jiaxiang Shan on 07/09/2020.
  */
 public final class TemplateController implements Initializable {
 
@@ -72,11 +72,12 @@ public final class TemplateController implements Initializable {
 	public void initialize(URL location, ResourceBundle resources) {
 
 		//
-		Template.getPrimaryStage().setTitle("Digital Cookbook");
+		Template.getPrimaryStage().setTitle("Energy Market Game");
 
 		// Template.getPrimaryStage().getIcons().add(new
 		// Image("/de/fhluebeck/group3/resources/system/cookbook.jpg"));
 
+		/*
 		Template.getPrimaryStage().getIcons().add(
 				new Image(new File(MainFrameController.SYSTEM_IMAGE_DEFAULT_PATH + "cookbook.jpg").toURI().toString()));
 
@@ -90,6 +91,7 @@ public final class TemplateController implements Initializable {
 			}
 
 		});
+		*/
 
 		// set the trigger to the login_button;
 		this.login_button.setOnAction(event -> {

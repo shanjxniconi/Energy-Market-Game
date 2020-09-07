@@ -22,7 +22,7 @@ CREATE TABLE `user` (
 --
 
 LOCK TABLES `user` WRITE;
-INSERT INTO `user` VALUES (1,'jiaxiang.shan','qwerty',1);
+INSERT INTO `user` VALUES (1,'jiaxiang.shan','8106417f482b5b3a30a433f4a31704bf',1);
 UNLOCK TABLES;
 
 --
@@ -48,5 +48,5 @@ INSERT INTO `gameResult` VALUES (1, 'Test', 10000000),
 UNLOCK TABLES;
 
 -- Create user for the database.gameresult
-CREATE USER 'energygameUser'@'localhost' IDENTIFIED WITH mysql_native_password BY 'qwerty';
-GRANT ALL PRIVILEGES ON energygame.* TO 'energygameUser'@'localhost'; 
+CREATE USER 'energyGameUser'@'localhost' IDENTIFIED WITH mysql_native_password BY '123';
+GRANT ALL PRIVILEGES ON energygame.* TO 'energyGameUser'@'localhost'; 
