@@ -3,5 +3,8 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="/DigitalCookbook/lib/itextpdf-5.1.1.jar"/>
+	<classpathentry kind="lib" path="/DigitalCookbook/lib/junit-4.9.jar"/>
+	<classpathentry kind="lib" path="/DigitalCookbook/lib/mysql-connector-java-5.1.46-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
